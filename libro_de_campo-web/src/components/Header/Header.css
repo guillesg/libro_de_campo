@@ -1,0 +1,54 @@
+.header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px 0 20px 0;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    padding-left: 35px;
+    margin-bottom: 30px;
+}
+
+.nav {
+    width: 60%;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-list li {
+    margin-bottom: 25px;
+}
+
+.nav-list li a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-list li a i {
+    margin-left: 9px;
+}
+
+.buttons-container {
+    margin-bottom: 25px;
+    margin-right: 35px;
+}
+
+.mode {
+    margin-left: 20px;
+}

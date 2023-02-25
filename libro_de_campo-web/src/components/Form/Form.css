@@ -1,0 +1,26 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.form-add {
+    margin-right: 40px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.input-add {
+    outline: none !important;
+    padding: 10px;
+    border: none;
+}
+
+.button-add {
+    display: flex;
+    justify-content: center;
+}
